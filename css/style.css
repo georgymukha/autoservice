@@ -364,6 +364,7 @@ a:focus {
 
 .service_section {
   position: relative;
+  padding-bottom: 90px;
 }
 
 .service_section .box {
@@ -689,7 +690,9 @@ a:focus {
 .info_section {
   background-color: #292725;
   color: #ffffff;
-  padding: 75px 0 60px 0;
+  padding: 15px 0;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .info_section .row {
@@ -815,6 +818,7 @@ a:focus {
 
 .row {
   overflow: hidden;
+  justify-content: space-evenly;
 }
 
 [class*="col-"] {

@@ -114,8 +114,7 @@ a:focus {
 
 /*header section*/
 .header_section .container-fluid {
-  padding-right: 25px;
-  padding-left: 25px;
+  padding: 0 100px;
 }
 
 .navbar-brand span {
@@ -827,4 +826,9 @@ a:focus {
 
 [class*="col-"] > .box {
   width: 100%;
+}
+
+li.dropdown > .dropdown-menu {
+  width: 400px;
+  transform: translate(-100%);
 }

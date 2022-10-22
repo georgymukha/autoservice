@@ -869,3 +869,9 @@ a:focus {
 .gsc-search-button {
   padding: 10px 10px !important;
 }
+
+.google-search-label {
+  max-width: 40vw;
+  color: #61656a;
+  font-size: 0.8rem;
+}
